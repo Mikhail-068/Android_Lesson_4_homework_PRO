@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#29023D"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image_1"
+        android:layout_width="328dp"
+        android:layout_height="327dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginBottom="485dp"
+        android:contentDescription=" "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/predict_1"
+        android:layout_width="100dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="188dp"
+        android:backgroundTint="#D50404"
+        android:text="Predict"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/select_1"
+        android:layout_width="102dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="188dp"
+        android:backgroundTint="#304FFE"
+        android:text="Select"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="UnknownId" />
+
+    <TextView
+        android:id="@+id/text_1"
+        android:layout_width="395dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="11dp"
+        android:text="== Pro =="
+        android:textAlignment="center"
+        android:textColor="#FFAB00"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/image_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
